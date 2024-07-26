@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- googel font Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- googel font Dancing -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- BOXICONS -->
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- Add AOS -->
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <title>template 1</title>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+  <!-- header  -->
+
+  <header class="header">
+    <div class="container">
+      <ul class="social-icons pt-3">
+        <li class="social-item"><a class="social-link " href="#"><i class="fa-brands fa-facebook-f"
+              aria-hidden="true"></i></a>
+        </li>
+        <li class="social-item"><a class="social-link " href="#"><i class="fa-brands fa-twitter"
+              aria-hidden="true"></i></a>
+        <li class="social-item"><a class="social-link " href="#"><i class="fa-brands fa-google"
+              aria-hidden="true"></i></a>
+        </li>
+        <li class="social-item"><a class="social-link " href="#"><i class="fa-brands fa-instagram"
+              aria-hidden="true"></i></a>
+        </li>
+        <li class="social-item"><a class="social-link " href="#"><i class="fa-brands fa-github"
+              aria-hidden="true"></i></a>
+        </li>
+      </ul>
+      <div class="header-content">
+        <h4 class="header-subtitle">Hello, I am</h4>
+        <h1 class="header-title">John Doe</h1>
+        <h6 class="header-mono">Frond end Developer</h6>
+        <button class="btn btn-primary btn-rounded"><i class="fa-brands fa-pinterest-p btn-iconn"></i>Read
+          Resume</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- navbar -->
+
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light" data-spy="affix" data-offset-top="510">
+    <div class="container">
+      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#experience" class="nav-link">experience</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skill" class="nav-link">Skills</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav brand">
+          <img src="assets/imgs/about.jpg" alt="" class="brand-img">
+          <li class="brand-txt">
+            <h5 class="brand-title">John Doe</h5>
+            <!-- <div class="brand-subtitle">Web Developer</div> -->
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#test" class="nav-link">Testimonial</a>
+          </li>
+          <li class="nav-item">
+            <a href="#blog" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item last-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Client section -->
+
+  <div class="container-fluid cli">
+    <h1 class="section-title my-5">Some of clients</h1>
+    <div class="row">
+      <div class="cli-col col-lg-2 col-md-4 col-6 d-flex hvr">
+        <h2>client 1</h2>
+        <!-- <img class="img-1" src="imgs/googel.png" alt=""> -->
+      </div>
+      <div class="cli-col col-lg-2 col-md-4 col-6 d-flex ">
+        <h2>client 2</h2>
+        <!-- <img class="img-2" src="./Assets/img/Frame.svg" alt=""> -->
+      </div>
+      <div class="cli-col col-lg-2 col-md-4 col-6 d-flex">
+        <h2>client 3</h2>
+        <!-- <img class="img-3" src="./Assets/img/Vector2.svg" alt=""> -->
+      </div>
+      <div class="cli-col col-lg-2 col-md-4 col-6 d-flex">
+        <h2>client 4</h2>
+        <!-- <img class="img-4" src="./Assets/img/dellsvg.svg" alt=""> -->
+      </div>
+      <div class="cli-col col-lg-2 col-md-4 col-6 d-flex">
+        <h2>client 5</h>
+          <!-- <img class="img-5" src="./Assets/img/Huawei_Standard_logo 1.svg" alt=""> -->
+      </div>
+      <div class="cli-col col-lg-2 col-md-4 col-6 d-flex">
+        <h2>client 6</h2>
+        <!-- <img class="img-5" src="./Assets/img/Group 7.svg" alt=""> -->
+      </div>
+    </div>
+  </div>
+
+  <!-- About section -->
+
+  <div class="container-fluid about" id="about">
+    <h1 class="section-title mb-5 ">About me</h1>
+    <div class="container">
+      <div class="row align-items-center about-row">
+        <div class="col-lg-5 pb-4 pb-lg-0">
+          <img class="about-img img-fluid " src="assets/imgs/about.jpg" alt="">
+        </div>
+        <div class="col-lg-7 about-col">
+          <h3>Hi, I'm John Doe</h3>
+          <p class=" about-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, quibusdam. Cupiditate
+            eius esse autem, vitae eligendi sit illum fuga, animi reiciendis eaque nostrum adipisci! Magni facere
+            laboriosam, quisquam labore libero delectus suscipit saepe, numquam assumenda vitae, maxime itaque incidunt
+            cumque?</p>
+
+          <a href="" class="btn btn-outline-primary mr-4 btn-rounded about-btn">Hire Me</a>
+          <a href="" class="btn btn-outline-primary btn-rounded about-btn">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Experience section -->
+
+  <div class="container-fluid main-section experience-section" id="experience">
+    <div class="container">
+      <div class="heading">
+        <h1 class="section-title mb-5">my EXPERIENCE</h1>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-12 col-12 px-md-5">
+          <div class="experience">
+            <div class=" col-12 d-flex justify-content-center">
+              <h5>Sep, 2016 – May, 2017</h5>
+            </div>
+            <div class=" col-12 ex-left">
+              <h4>Junior Designer</h4>
+              <p>Lorem Ipsusm is simpldy dummy text of the prisnting and typesitting induitry. Lorem Ipsum has
+                been
+                the induktry magnl alisua.</p>
+              <span>- Las Vegas, USA</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 col-12 px-md-5 py-md-2">
+          <div class="experience">
+            <div class="col-12 d-flex justify-content-center">
+              <h5>Sep, 2017 – May, 2022</h5>
+            </div>
+            <div class=" col-12 ex-left">
+              <h4>Systems Analyst / Web Developer</h4>
+              <p>Lorems Ispsum is siimply duummy txt of thes priniting and typeesetting indusstry. Lorrem Ipsuum
+                haes been the industrry magnsa aliqua.</p>
+              <span>- Las Vegas, USA</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 col-12 px-md-5 py-md-2">
+          <div class="experience">
+            <div class="col-12 d-flex justify-content-center">
+              <h5>Sep, 2022 – May, 2023</h5>
+            </div>
+            <div class="col-12 ex-left">
+              <h4>Full Stack Developer</h4>
+              <p>Liorem Ipisum is simpsly dummys texts of the printig and typesetting indistry. Lorem Ipsmm has
+                besn
+                the induetry magne aliquas.</p>
+              <span>- Las Vegas, USA</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Skills section -->
+
+  <div class="container-fluid" id="skill">
+    <div class="container py-5 mb-5">
+      <h1 class="section-title mb-5">My Skills</h1>
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <div class="skill">
+            <div class="d-flex justify-content-between">
+              <h6 class="font-weight-bold">HTML</h6>
+              <h6 class="font-weight-bold">95%</h6>
+            </div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-html" role="progressbar" aria-valuenow="95" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="d-flex justify-content-between">
+              <h6 class="font-weight-bold">CSS</h6>
+              <h6 class="font-weight-bold">95%</h6>
+            </div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-css" role="progressbar" aria-valuenow="95" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="d-flex justify-content-between">
+              <h6 class="font-weight-bold">JavaScript</h6>
+              <h6 class="font-weight-bold">90%</h6>
+            </div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-javascript" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="skill">
+            <div class="d-flex justify-content-between">
+              <h6 class="font-weight-bold">React JS</h6>
+              <h6 class="font-weight-bold">95%</h6>
+            </div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-react" role="progressbar" aria-valuenow="95" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="d-flex justify-content-between">
+              <h6 class="font-weight-bold">WordPress</h6>
+              <h6 class="font-weight-bold">85%</h6>
+            </div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-wordpress" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="d-flex justify-content-between">
+              <h6 class="font-weight-bold">PHP</h6>
+              <h6 class="font-weight-bold">70%</h6>
+            </div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-php" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- protfolio section -->
+
+  <div class="section bg-custom-gray portfolio" id="portfolio">
+    <div class="container">
+      <div class="portfolio">
+        <h1 class="mb-5 section-title">My Portfolio</h1>
+        <div class="filters">
+          <a href="#" data-filter=".new" class="active">
+            New
+          </a>
+          <a href="#" data-filter=".advertising" class="filter-title">
+            Advertising
+          </a>
+          <a href="#" data-filter=".branding" class="filter-title">
+            Branding
+          </a>
+          <a href="#" data-filter=".web" class="filter-title">
+            Web
+          </a>
+        </div>
+        <div class="portfolio-container">
+          <div class="col-md-6 col-lg-4 web new">
+            <div class="portfolio-item">
+              <img src="assets/imgs/pro/pro-1.jpg " class="img-fluid
+                alt=" Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+              <div class="content-holder">
+                <a class="img-popup" href="assets/imgs/pro/pro-1.jpg"></a>
+                <div class="text-holder">
+                  <h6 class="title">WEB</h6>
+                  <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 web new">
+            <div class="portfolio-item">
+              <img src="assets/imgs/pro/pro-2.jpg" class="img-fluid"
+                alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+              <div class="content-holder">
+                <a class="img-popup" href="assets/imgs/pro/pro-2.jpg"></a>
+                <div class="text-holder">
+                  <h6 class="title">WEB</h6>
+                  <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 advertising new">
+            <div class="portfolio-item">
+              <img src="assets/imgs/pro/pro-3.jpg" class="img-fluid"
+                alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+              <div class="content-holder">
+                <a class="img-popup" href="assets/imgs/pro/pro-3.jpg"></a>
+                <div class="text-holder">
+                  <h6 class="title">ADVERSTISING</h6>
+                  <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 web new">
+            <div class="portfolio-item">
+              <img src="assets/imgs/pro/pro-4.jpg" class="img-fluid"
+                alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+              <div class="content-holder">
+                <a class="img-popup" href="assets/imgs/pro/pro-4.jpg"></a>
+                <div class="text-holder">
+                  <h6 class="title">WEB</h6>
+                  <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 web">
+            <div class="portfolio-item">
+              <img src="assets/imgs/pro/pro-5.jpg" class="img-fluid"
+                alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+              <div class="content-holder">
+                <a class="img-popup" href="assets/imgs/pro/pro-5.jpg"></a>
+                <div class="text-holder">
+                  <h6 class="title">WEB</h6>
+                  <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 advertising">
+            <div class="portfolio-item">
+              <img src="assets/imgs/pro/pro-6.jpg" class="img-fluid"
+                alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+              <div class="content-holder">
+                <a class="img-popup" href="assets/imgs/pro/pro-6.jpg"></a>
+                <div class="text-holder">
+                  <h6 class="title">ADVERSITING</h6>
+                  <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 web new">
+            <div class="portfolio-item">
+              <img src="assets/imgs/pro/pro-7.jpg" class="img-fluid"
+                alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+              <div class="content-holder">
+                <a class="img-popup" href="assets/imgs/pro/pro-7.jpg"></a>
+                <div class="text-holder">
+                  <h6 class="title">WEB</h6>
+                  <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 advertising new">
+            <div class="portfolio-item">
+              <img src="assets/imgs/pro/pro-3.jpg" class="img-fluid"
+                alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+              <div class="content-holder">
+                <a class="img-popup" href="assets/imgs/pro/pro-3.jpg"></a>
+                <div class="text-holder">
+                  <h6 class="title">ADVERSITING</h6>
+                  <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 advertising new">
+            <div class="portfolio-item">
+              <img src="assets/imgs/pro/pro-1.jpg" class="img-fluid"
+                alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+              <div class="content-holder">
+                <a class="img-popup" href="assets/imgs/pro/pro-1.jpg"></a>
+                <div class="text-holder">
+                  <h6 class="title">ADVERTISING</h6>
+                  <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-6 col-lg-4 branding new">
+            <div class="portfolio-item">
+              <img src="assets/imgs/pro/pro-5.jpg" class="img-fluid"
+                alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+              <div class="content-holder">
+                <a class="img-popup" href="assets/imgs/pro/pro-5.jpg"></a>
+                <div class="text-holder">
+                  <h6 class="title">BRANDING</h6>
+                  <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 branding">
+            <div class="portfolio-item">
+              <img src="assets/imgs/pro/pro-2.jpg" class="img-fluid"
+                alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+              <div class="content-holder">
+                <a class="img-popup" href="assets/imgs/pro/pro-2.jpg"></a>
+                <div class="text-holder">
+                  <h6 class="title">BRANDING</h6>
+                  <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 branding new">
+            <div class="portfolio-item">
+              <img src="assets/imgs/pro/pro-6.jpg" class="img-fluid"
+                alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+              <div class="content-holder">
+                <a class="img-popup" href="assets/imgs/pro/pro-6.jpg"></a>
+                <div class="text-holder">
+                  <h6 class="title">BRANDING</h6>
+                  <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 branding">
+            <div class="portfolio-item">
+              <img src="assets/imgs/pro/pro-7.jpg" class="img-fluid"
+                alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+              <div class="content-holder">
+                <a class="img-popup" href="assets/imgs/pro/pro-7.jpg"></a>
+                <div class="text-holder">
+                  <h6 class="title">BRANDING</h6>
+                  <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 branding">
+            <div class="portfolio-item">
+              <img src="assets/imgs/pro/pro-1.jpg" class="img-fluid"
+                alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+              <div class="content-holder">
+                <a class="img-popup" href="assets/imgs/pro/pro-1.jpg"></a>
+                <div class="text-holder">
+                  <h6 class="title">BRANDING</h6>
+                  <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- testmonial -->
+
+  <div class="container-fluid fh5co-about-me" id="test">
+    <div id="my-carousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="card">
+          <img class="card-img d-block w-100" src="assets/imgs/about-me-img.jpg" alt="">
+          <div class="card-img-overlay">
+            <h1 class="section-title">People says about me</h>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-caption d-md-block">
+            <img src="assets/imgs/quote-icon.png" alt="">
+            <p class="text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse voluptatum aliquid
+              beatae explicabo sapiente praesentium corporis dolores. Voluptatum, dignissimos? Nihil omnis provident
+              animi consectetur necessitatibus illo quis commodi accusantium voluptate.</p>
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <div class="carousel-caption d-md-block">
+            <img src="assets/imgs/quote-icon.png" alt="">
+            <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique rem quibusdam
+              expedita et ea ipsam ut! Eius amet natus molestiae, excepturi culpa voluptate tenetur voluptatem, officia
+              cumque quod, voluptates doloremque?</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-caption d-md-block">
+            <img src="assets/imgs/quote-icon.png" alt="">
+            <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, quibusdam id tenetur
+              necessitatibus quasi excepturi maiores sint placeat accusantium dolorum veritatis est at, obcaecati
+              pariatur quos officiis. Consequatur, nesciunt delectus.</p>
+          </div>
+        </div>
+      </div>
+      <ol class="carousel-indicators">
+        <li data-target="#my-carousel" data-slide-to="0">
+          <img src="assets/imgs/about-me-img1.png" alt="">
+          <span>Sherrie
+            Rose</span>
+        </li>
+        <li class="active" data-target="#my-carousel" data-slide-to="1" aria-current="location">
+          <img src="assets/imgs/about-me-img2.png" alt=""> <span>Sherrie Rose</span>
+        </li>
+        <li data-target="#my-carousel" data-slide-to="2">
+          <img src="assets/imgs/about-me-img3.png" alt="">
+          <span>Sherrie Rose</span>
+        </li>
+      </ol>
+    </div>
+  </div>
+
+  <!-- blog section -->
+
+  <div class="container-fluid py-5 blog" id="blog">
+    <div class="container py-5">
+      <h1 class="section-title mb-5">My Blog</h1>
+      <div class="row">
+        <div class="col-md-4 col-lg-4 mb-4">
+          <div class="card">
+            <img src="assets/imgs/0fccf374-4575-42ad-b497-f00293fbaae9_upscaled.png" class="card-img-top" alt="...">
+            <div class="card-body mb-4">
+              <h5 class="card-title my-4">Card title</h5>
+              <p class="card-text mb-4">Some quick example text to build on the card title and make up the bulk
+                of
+                the
+                card's content.</p>
+              <a href="#" class="blog-btn btn-outline-success">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-4 mb-4">
+          <div class="card">
+            <img src="assets/imgs/0fccf374-4575-42ad-b497-f00293fbaae9_upscaled.png" class="card-img-top" alt="...">
+            <div class="card-body mb-4">
+              <h5 class="card-title my-4">Card title</h5>
+              <p class="card-text mb-4">Some quick example text to build on the card title and make up the bulk
+                of
+                the
+                card's content.</p>
+              <a href="#" class="blog-btn btn-outline-success">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-4 mb-4">
+          <div class="card">
+            <img src="assets/imgs/0fccf374-4575-42ad-b497-f00293fbaae9_upscaled.png" class="card-img-top" alt="...">
+            <div class="card-body mb-4">
+              <h5 class="card-title my-4">Card title</h5>
+              <p class="card-text mb-4">Some quick example text to build on the card title and make up the bulk
+                of
+                the
+                card's content.</p>
+              <a href="#" class="blog-btn btn-outline-success">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- contact section -->
+
+  <div class="contact section py-5" id="contact">
+    <h1 class="section-title mb-5">Contact Me</h1>
+
+    <div class="contact__container container grid">
+      <div class="contact__content">
+        <div class="contact__info">
+          <a href="mailto:#">
+            <div class="contact__card">
+              <i class="fa-regular fa-envelope contact__button-icon"></i>
+              <h3 class="contact__card-title">Email</h3>
+              <span class="contact__card-data">Ex5Kw@example.com</span>
+            </div>
+          </a>
+
+          <a href="https://wa.me/123456789">
+            <div class="contact__card">
+              <i class="fa-brands fa-whatsapp contact__card-icon"></i>
+              <h3 class="contact__card-title">Whatsapp</h3>
+              <span class="contact__card-data">012345679</span>
+            </div>
+          </a>
+
+          <a href="https://m.me/">
+            <div class="contact__card">
+              <i class="fa-brands fa-facebook-messenger contact__card-icon"></i>
+              <h3 class="contact__card-title">Messenger</h3>
+              <span class="contact__card-data">John Doe</span>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="contact__content">
+        <form action="mailto:#" method="post" class="contact__form">
+          <div class="input__container">
+            <input type="text" name="username" class="input">
+            <label for="username">Username</label>
+            <span>Username</span>
+          </div>
+          <div class="input__container">
+            <input type="email" name="email" class="input">
+            <label for="email">Email</label>
+            <span>Email</span>
+          </div>
+          <div class="input__container">
+            <input type="tel" name="phone" class="input">
+            <label for="phone">Phone</label>
+            <span>Phone</span>
+          </div>
+          <div class="input__container textarea">
+            <textarea name="message" cols="30" rows="10" class="input"></textarea>
+            <label for="message">Message</label>
+            <span>Message</span>
+          </div>
+          <button type="submit" class="submit__button btn btn-outline-success"><i
+              class="uil uil-navigator button__icon"></i>Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+
+  <footer class="footer bg-dark text-white text-center py-3 bg">
+    <h5>Copyright &copy; Adel Elkenany</h5>
+  </footer>
+
+
+  <!-- bootstrap js -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <!-- jquery -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+    integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- bundle -->
+
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+  <!-- affix -->
+
+  <script src="assets/js/isotope/bootstrap.affix.js"></script>
+  <script src="assets/js/isotope/bootstrap.bundle.js"></script>
+
+  <!-- mixitup -->
+
+  <script src="./mixitup.min.js"></script>
+
+  <!-- Isotope -->
+
+  <script src="assets/js/isotope/isotope.pkgd.js"></script>
+
+  <!-- main js -->
+  <script src="main.js"></script>
+</body>
+
+</html>
